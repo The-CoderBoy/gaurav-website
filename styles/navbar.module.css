@@ -1,0 +1,60 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+}
+.lik {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  margin-top: 3px;
+  color: black;
+}
+
+.likM {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  margin-top: 3px;
+  color: white;
+}
+
+.lik:hover{
+  color: #9c833e;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.divM {
+  background-color: black;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 4px black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .div {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .divM {
+    display: none;
+  }
+}
