@@ -1,5 +1,5 @@
 import React from "react";
-import ProCard from "@/components/ProCard";
+import ProCard from "../components/ProCard";
 let c1 = "./images/project/c1.png";
 let c2 = "./images/project/c2.png";
 let c3 = "./images/project/c3.png";

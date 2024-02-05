@@ -1,11 +1,11 @@
 import React from "react";
-import Banner from "@/components/Banner";
-import style from "@/styles/home.module.css";
-import { montserrat } from "@/utils/font";
-import ServiceCard from "@/components/ServiceCard";
+import Banner from "../components/Banner";
+import style from "../styles/home.module.css";
+import { montserrat } from "../utils/font";
+import ServiceCard from "../components/ServiceCard";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
-import data from "@/utils/data";
+import data from "../utils/data";
 
 function index() {
   return (

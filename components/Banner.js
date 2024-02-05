@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import img1 from "@/public/images/gj.jpg";
-import img2 from "@/public/images/gjm.png";
+import img1 from "../public/images/gj.jpg";
+import img2 from "../public/images/gjm.png";
 import { Typewriter } from "react-simple-typewriter";
-import Style from "@/styles/banner.module.css";
+import Style from "../styles/banner.module.css";
 
 function Block() {
   return (

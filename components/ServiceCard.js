@@ -1,5 +1,5 @@
 import React from "react";
-import style from "@/styles/serviceCard.module.css";
+import style from "../styles/serviceCard.module.css";
 import { montserrat, inter } from "@/utils/font";
 
 function ServiceCard({ data }) {

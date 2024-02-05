@@ -1,5 +1,5 @@
 import React from "react";
-import ExpCard from "@/components/ExpCard";
+import ExpCard from "../components/ExpCard";
 
 function Experience() {
   const data = [

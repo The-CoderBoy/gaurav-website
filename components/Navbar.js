@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Styles from "@/styles/navbar.module.css";
+import Styles from "../styles/navbar.module.css";
 import { BsFilterRight, BsX } from "react-icons/bs";
 
 function Navbar() {

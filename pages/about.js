@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import imgAbout from "@/public/images/gjAbout.jpg";
+import imgAbout from "../public/images/gjAbout.jpg";
 import Image from "next/image";
 
 function About() {
